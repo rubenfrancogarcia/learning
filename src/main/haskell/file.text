@@ -1,0 +1,27 @@
+
+All done!
+
+In a new powershell or cmd.exe session, now you can...
+
+Start a simple repl via:
+  ghci
+
+Start a new haskell project in the current directory via:
+  cabal init --interactive
+
+To install other GHC versions and tools, run:
+  ghcup tui
+
+To install system libraries and update msys2/mingw64,
+open the "Mingw haskell shell"
+and the "Mingw package management docs"
+desktop shortcuts.
+
+If you are new to Haskell, check out https://www.haskell.org/ghcup/steps/
+
+--steps to run basic 
+ghc .\src\main\haskell\hellos.hs
+hello.exe
+https://github.com/haskell-beginners-2022/course-plan
+https://www.haskell.org/ghcup/steps/#creating-a-proper-package-with-modules
+https://www.haskell.org/get-started/
