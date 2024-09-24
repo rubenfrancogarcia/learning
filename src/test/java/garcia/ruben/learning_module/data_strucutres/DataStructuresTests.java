@@ -1,6 +1,5 @@
 package garcia.ruben.learning_module.data_strucutres;
 
-import garcia.ruben.coding_problems.Leetcode;
 import garcia.ruben.utils.data_structures.ListNode;
 import org.junit.Assert;
 import org.junit.Test;

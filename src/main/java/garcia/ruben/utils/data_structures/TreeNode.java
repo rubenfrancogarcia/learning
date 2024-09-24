@@ -29,4 +29,12 @@ public class TreeNode {
     public TreeNode getLeft() {
         return left;
     }
+
+    public TreeNode populateTreeNode_Inorder(int[] arr){
+        int length = arr.length;
+        if(length == 0) return null;
+        if(length == 1) return new TreeNode(arr[0], null, null);
+        TreeNode rootNode = new TreeNode();
+        return rootNode;
+    }
 }
